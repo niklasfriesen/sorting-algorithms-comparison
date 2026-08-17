@@ -1,4 +1,4 @@
-from algorithms.bubble_sort import bubble_sort
+from src.algorithms.bubble_sort import bubble_sort
 
 
 def test_empty_list():
