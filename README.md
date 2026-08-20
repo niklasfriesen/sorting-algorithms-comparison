@@ -16,10 +16,18 @@ Implemented in [src/algorithms/](src/algorithms/):
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -e ".[dev]"
 ```
 
 ## Running the benchmark
 ```bash
-python3 src/benchmark.py
+python3 -m src.benchmark
+```
+This prints timing results per algorithm and input size, then writes a runtime
+comparison chart to `benchmark_results.png`.
+
+## Running the tests
+```bash
+hash -r
+pytest
 ```
