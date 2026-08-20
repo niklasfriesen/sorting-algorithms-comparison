@@ -23,5 +23,5 @@ Here are my notes on what I learned, my difficulties and what I would do differe
 
 ## What I'd do differently next time
 - Set up CI from the start so tests run automatically on every push/PR, instead of running `pytest` every time.
-- Make a plan - I just started head first and had to fix them with multiple annoying PRs
+- Make a plan - I just started head first and had to fix avoidable mistakes with multiple annoying PRs
 - Use `pyproject.toml` from the beginning instead of adding `requirements.txt`.
