@@ -1,2 +1,2 @@
-pytest
-matplotlib
+pytest>=9.1
+matplotlib>=3.10
